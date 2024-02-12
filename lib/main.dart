@@ -1,4 +1,6 @@
 import 'package:dictionary/presentation/pages/home/home.dart';
+import 'package:dictionary/presentation/themes/dark.dart';
+import 'package:dictionary/presentation/themes/light.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -12,11 +14,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Dictionary',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      darkTheme: ThemeData.dark(),
+      themeMode: ThemeMode.system,
+      theme: lightMe,
+      darkTheme: darkMe,
       home: const HomeScreen(),
     );
   }
