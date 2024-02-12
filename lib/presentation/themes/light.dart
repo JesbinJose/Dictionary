@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 import 'package:dictionary/presentation/themes/color.dart';
 import 'package:dictionary/presentation/themes/text_style.dart';
 import 'package:flutter/material.dart';
@@ -180,15 +178,15 @@ ThemeData lightSm = ThemeData(
   primaryColor: lightColorSchema.primaryColor,
   hintColor: lightColorSchema.secondaryColor,
   textTheme: TextTheme(
-    headline1: lightModeTextStyleSchema.small.mainTitleStyle,
-    headline2: lightModeTextStyleSchema.small.titleStyle,
-    headline3: lightModeTextStyleSchema.small.secondaryTitleStyle,
-    headline4: lightModeTextStyleSchema.small.thirdTitleStyle,
-    button: lightModeTextStyleSchema.small.buttonTextStyle,
-    subtitle1: lightModeTextStyleSchema.small.searchTextStyle,
-    bodyText1: lightModeTextStyleSchema.small.primaryTextStyle,
-    bodyText2: lightModeTextStyleSchema.small.secondaryTextStyle,
-    caption: lightModeTextStyleSchema.small.itemTextStyle,
+    displayLarge: lightModeTextStyleSchema.small.mainTitleStyle,
+    displayMedium: lightModeTextStyleSchema.small.titleStyle,
+    displaySmall: lightModeTextStyleSchema.small.secondaryTitleStyle,
+    headlineMedium: lightModeTextStyleSchema.small.thirdTitleStyle,
+    labelLarge: lightModeTextStyleSchema.small.buttonTextStyle,
+    titleMedium: lightModeTextStyleSchema.small.searchTextStyle,
+    bodyLarge: lightModeTextStyleSchema.small.primaryTextStyle,
+    bodyMedium: lightModeTextStyleSchema.small.secondaryTextStyle,
+    bodySmall: lightModeTextStyleSchema.small.itemTextStyle,
   ),
 );
 
@@ -197,15 +195,15 @@ ThemeData lightMe = ThemeData(
   primaryColor: lightColorSchema.primaryColor,
   hintColor: lightColorSchema.secondaryColor,
   textTheme: TextTheme(
-    headline1: lightModeTextStyleSchema.medium.mainTitleStyle,
-    headline2: lightModeTextStyleSchema.medium.titleStyle,
-    headline3: lightModeTextStyleSchema.medium.secondaryTitleStyle,
-    headline4: lightModeTextStyleSchema.medium.thirdTitleStyle,
-    button: lightModeTextStyleSchema.medium.buttonTextStyle,
-    subtitle1: lightModeTextStyleSchema.medium.searchTextStyle,
-    bodyText1: lightModeTextStyleSchema.medium.primaryTextStyle,
-    bodyText2: lightModeTextStyleSchema.medium.secondaryTextStyle,
-    caption: lightModeTextStyleSchema.medium.itemTextStyle,
+    displayLarge: lightModeTextStyleSchema.medium.mainTitleStyle,
+    displayMedium: lightModeTextStyleSchema.medium.titleStyle,
+    displaySmall: lightModeTextStyleSchema.medium.secondaryTitleStyle,
+    headlineMedium: lightModeTextStyleSchema.medium.thirdTitleStyle,
+    labelLarge: lightModeTextStyleSchema.medium.buttonTextStyle,
+    titleMedium: lightModeTextStyleSchema.medium.searchTextStyle,
+    bodyLarge: lightModeTextStyleSchema.medium.primaryTextStyle,
+    bodyMedium: lightModeTextStyleSchema.medium.secondaryTextStyle,
+    bodySmall: lightModeTextStyleSchema.medium.itemTextStyle,
   ),
 );
 
@@ -214,14 +212,14 @@ ThemeData lightLa = ThemeData(
   primaryColor: lightColorSchema.primaryColor,
   hintColor: lightColorSchema.secondaryColor,
   textTheme: TextTheme(
-    headline1: lightModeTextStyleSchema.large.mainTitleStyle,
-    headline2: lightModeTextStyleSchema.large.titleStyle,
-    headline3: lightModeTextStyleSchema.large.secondaryTitleStyle,
-    headline4: lightModeTextStyleSchema.large.thirdTitleStyle,
-    button: lightModeTextStyleSchema.large.buttonTextStyle,
-    subtitle1: lightModeTextStyleSchema.large.searchTextStyle,
-    bodyText1: lightModeTextStyleSchema.large.primaryTextStyle,
-    bodyText2: lightModeTextStyleSchema.large.secondaryTextStyle,
-    caption: lightModeTextStyleSchema.large.itemTextStyle,
+    displayLarge: lightModeTextStyleSchema.large.mainTitleStyle,
+    displayMedium: lightModeTextStyleSchema.large.titleStyle,
+    displaySmall: lightModeTextStyleSchema.large.secondaryTitleStyle,
+    headlineMedium: lightModeTextStyleSchema.large.thirdTitleStyle,
+    labelLarge: lightModeTextStyleSchema.large.buttonTextStyle,
+    titleMedium: lightModeTextStyleSchema.large.searchTextStyle,
+    bodyLarge: lightModeTextStyleSchema.large.primaryTextStyle,
+    bodyMedium: lightModeTextStyleSchema.large.secondaryTextStyle,
+    bodySmall: lightModeTextStyleSchema.large.itemTextStyle,
   ),
 );

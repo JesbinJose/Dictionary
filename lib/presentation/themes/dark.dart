@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 import 'package:dictionary/presentation/themes/color.dart';
 import 'package:dictionary/presentation/themes/text_style.dart';
 import 'package:flutter/material.dart';
@@ -178,15 +176,15 @@ ThemeData darkSm = ThemeData(
   primaryColor: darkColorSchema.primaryColor,
   hintColor: darkColorSchema.secondaryColor,
   textTheme: TextTheme(
-    headline1: _darkModeTextStyleSchema.small.mainTitleStyle,
-    headline2: _darkModeTextStyleSchema.small.titleStyle,
-    headline3: _darkModeTextStyleSchema.small.secondaryTitleStyle,
-    headline4: _darkModeTextStyleSchema.small.thirdTitleStyle,
-    button: _darkModeTextStyleSchema.small.buttonTextStyle,
-    subtitle1: _darkModeTextStyleSchema.small.searchTextStyle,
-    bodyText1: _darkModeTextStyleSchema.small.primaryTextStyle,
-    bodyText2: _darkModeTextStyleSchema.small.secondaryTextStyle,
-    caption: _darkModeTextStyleSchema.small.itemTextStyle,
+    displayLarge: _darkModeTextStyleSchema.small.mainTitleStyle,
+    displayMedium: _darkModeTextStyleSchema.small.titleStyle,
+    displaySmall: _darkModeTextStyleSchema.small.secondaryTitleStyle,
+    headlineMedium: _darkModeTextStyleSchema.small.thirdTitleStyle,
+    labelLarge: _darkModeTextStyleSchema.small.buttonTextStyle,
+    titleMedium: _darkModeTextStyleSchema.small.searchTextStyle,
+    bodyLarge: _darkModeTextStyleSchema.small.primaryTextStyle,
+    bodyMedium: _darkModeTextStyleSchema.small.secondaryTextStyle,
+    bodySmall: _darkModeTextStyleSchema.small.itemTextStyle,
   ),
 );
 
@@ -194,16 +192,17 @@ ThemeData darkMe = ThemeData(
   scaffoldBackgroundColor: darkColorSchema.backgroundColor,
   primaryColor: darkColorSchema.primaryColor,
   hintColor: darkColorSchema.secondaryColor,
+  buttonTheme: const ButtonThemeData(),
   textTheme: TextTheme(
-    headline1: _darkModeTextStyleSchema.medium.mainTitleStyle,
-    headline2: _darkModeTextStyleSchema.medium.titleStyle,
-    headline3: _darkModeTextStyleSchema.medium.secondaryTitleStyle,
-    headline4: _darkModeTextStyleSchema.medium.thirdTitleStyle,
-    button: _darkModeTextStyleSchema.medium.buttonTextStyle,
-    subtitle1: _darkModeTextStyleSchema.medium.searchTextStyle,
-    bodyText1: _darkModeTextStyleSchema.medium.primaryTextStyle,
-    bodyText2: _darkModeTextStyleSchema.medium.secondaryTextStyle,
-    caption: _darkModeTextStyleSchema.medium.itemTextStyle,
+    displayLarge: _darkModeTextStyleSchema.medium.mainTitleStyle,
+    displayMedium: _darkModeTextStyleSchema.medium.titleStyle,
+    displaySmall: _darkModeTextStyleSchema.medium.secondaryTitleStyle,
+    headlineMedium: _darkModeTextStyleSchema.medium.thirdTitleStyle,
+    labelLarge: _darkModeTextStyleSchema.medium.buttonTextStyle,
+    titleMedium: _darkModeTextStyleSchema.medium.searchTextStyle,
+    bodyLarge: _darkModeTextStyleSchema.medium.primaryTextStyle,
+    bodyMedium: _darkModeTextStyleSchema.medium.secondaryTextStyle,
+    bodySmall: _darkModeTextStyleSchema.medium.itemTextStyle,
   ),
 );
 
@@ -212,14 +211,14 @@ ThemeData darkLa = ThemeData(
   primaryColor: darkColorSchema.primaryColor,
   hintColor: darkColorSchema.secondaryColor,
   textTheme: TextTheme(
-    headline1: _darkModeTextStyleSchema.large.mainTitleStyle,
-    headline2: _darkModeTextStyleSchema.large.titleStyle,
-    headline3: _darkModeTextStyleSchema.large.secondaryTitleStyle,
-    headline4: _darkModeTextStyleSchema.large.thirdTitleStyle,
-    button: _darkModeTextStyleSchema.large.buttonTextStyle,
-    subtitle1: _darkModeTextStyleSchema.large.searchTextStyle,
-    bodyText1: _darkModeTextStyleSchema.large.primaryTextStyle,
-    bodyText2: _darkModeTextStyleSchema.large.secondaryTextStyle,
-    caption: _darkModeTextStyleSchema.large.itemTextStyle,
+    displayLarge: _darkModeTextStyleSchema.large.mainTitleStyle,
+    displayMedium: _darkModeTextStyleSchema.large.titleStyle,
+    displaySmall: _darkModeTextStyleSchema.large.secondaryTitleStyle,
+    headlineMedium: _darkModeTextStyleSchema.large.thirdTitleStyle,
+    labelLarge: _darkModeTextStyleSchema.large.buttonTextStyle,
+    titleMedium: _darkModeTextStyleSchema.large.searchTextStyle,
+    bodyLarge: _darkModeTextStyleSchema.large.primaryTextStyle,
+    bodyMedium: _darkModeTextStyleSchema.large.secondaryTextStyle,
+    bodySmall: _darkModeTextStyleSchema.large.itemTextStyle,
   ),
 );
