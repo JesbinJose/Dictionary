@@ -172,9 +172,12 @@ final _darkModeTextStyleSchema = MyTextStyle(
   ),
 );
 ThemeData darkSm = ThemeData(
-  scaffoldBackgroundColor: darkColorSchema.backgroundColor,
-  primaryColor: darkColorSchema.primaryColor,
-  hintColor: darkColorSchema.secondaryColor,
+scaffoldBackgroundColor: darkColorSchema.backgroundColor,
+  appBarTheme: AppBarTheme(backgroundColor: darkColorSchema.backgroundColor,),
+  colorScheme: ColorScheme.dark(
+    primary:  darkColorSchema.primaryColor,
+    secondary: darkColorSchema.secondaryColor,
+  ),
   textTheme: TextTheme(
     displayLarge: _darkModeTextStyleSchema.small.mainTitleStyle,
     displayMedium: _darkModeTextStyleSchema.small.titleStyle,
@@ -190,9 +193,11 @@ ThemeData darkSm = ThemeData(
 
 ThemeData darkMe = ThemeData(
   scaffoldBackgroundColor: darkColorSchema.backgroundColor,
-  primaryColor: darkColorSchema.primaryColor,
-  hintColor: darkColorSchema.secondaryColor,
-  buttonTheme: const ButtonThemeData(),
+  appBarTheme: AppBarTheme(backgroundColor: darkColorSchema.backgroundColor,),
+  colorScheme: ColorScheme.dark(
+    primary:  darkColorSchema.primaryColor,
+    secondary: darkColorSchema.secondaryColor,
+  ),
   textTheme: TextTheme(
     displayLarge: _darkModeTextStyleSchema.medium.mainTitleStyle,
     displayMedium: _darkModeTextStyleSchema.medium.titleStyle,
@@ -208,8 +213,11 @@ ThemeData darkMe = ThemeData(
 
 ThemeData darkLa = ThemeData(
   scaffoldBackgroundColor: darkColorSchema.backgroundColor,
-  primaryColor: darkColorSchema.primaryColor,
-  hintColor: darkColorSchema.secondaryColor,
+  appBarTheme: AppBarTheme(backgroundColor: darkColorSchema.backgroundColor,),
+  colorScheme: ColorScheme.dark(
+    primary:  darkColorSchema.primaryColor,
+    secondary: darkColorSchema.secondaryColor,
+  ),
   textTheme: TextTheme(
     displayLarge: _darkModeTextStyleSchema.large.mainTitleStyle,
     displayMedium: _darkModeTextStyleSchema.large.titleStyle,

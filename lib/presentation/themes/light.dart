@@ -175,8 +175,13 @@ final lightModeTextStyleSchema = MyTextStyle(
 
 ThemeData lightSm = ThemeData(
   scaffoldBackgroundColor: lightColorSchema.backgroundColor,
-  primaryColor: lightColorSchema.primaryColor,
-  hintColor: lightColorSchema.secondaryColor,
+  appBarTheme: AppBarTheme(
+    backgroundColor: lightColorSchema.backgroundColor,
+  ),
+  colorScheme: ColorScheme.light(
+    primary: lightColorSchema.primaryColor,
+    secondary: lightColorSchema.secondaryColor,
+  ),
   textTheme: TextTheme(
     displayLarge: lightModeTextStyleSchema.small.mainTitleStyle,
     displayMedium: lightModeTextStyleSchema.small.titleStyle,
@@ -192,8 +197,11 @@ ThemeData lightSm = ThemeData(
 
 ThemeData lightMe = ThemeData(
   scaffoldBackgroundColor: lightColorSchema.backgroundColor,
-  primaryColor: lightColorSchema.primaryColor,
-  hintColor: lightColorSchema.secondaryColor,
+  appBarTheme: AppBarTheme(backgroundColor: lightColorSchema.backgroundColor),
+  colorScheme: ColorScheme.light(
+    primary: lightColorSchema.primaryColor,
+    secondary: lightColorSchema.secondaryColor,
+  ),
   textTheme: TextTheme(
     displayLarge: lightModeTextStyleSchema.medium.mainTitleStyle,
     displayMedium: lightModeTextStyleSchema.medium.titleStyle,
@@ -209,8 +217,11 @@ ThemeData lightMe = ThemeData(
 
 ThemeData lightLa = ThemeData(
   scaffoldBackgroundColor: lightColorSchema.backgroundColor,
-  primaryColor: lightColorSchema.primaryColor,
-  hintColor: lightColorSchema.secondaryColor,
+  appBarTheme: AppBarTheme(backgroundColor: lightColorSchema.backgroundColor),
+  colorScheme: ColorScheme.light(
+    primary: lightColorSchema.primaryColor,
+    secondary: lightColorSchema.secondaryColor,
+  ),
   textTheme: TextTheme(
     displayLarge: lightModeTextStyleSchema.large.mainTitleStyle,
     displayMedium: lightModeTextStyleSchema.large.titleStyle,
