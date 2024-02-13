@@ -28,7 +28,6 @@ class MyBottomNavigationBar extends StatelessWidget {
           currentIndex: v,
           onTap: (value) {
             page.value = value;
-
           },
         );
       },
